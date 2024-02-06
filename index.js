@@ -31,40 +31,13 @@ const questions = [ {
         type: 'list',
         name: 'license',
         message: 'What is your License?',
-        choices: ['None','MIT','Apache License 2.0','Boost Software License']
+        choices: ['None','MIT','APACHE_2.0','BSD_3']
   },
   {
         type: 'input',
         name: 'contributors',
         message: 'Who are your contributors?'
   },
-
-//   {
-//     type: 'input',
-//     name: 'userName',
-//     message: 'What is your project title?'
-//   },
-//   {
-//     type: 'input',
-//     name: 'userName',
-//     message: 'What is your project title?'
-//   },
-//   {
-//     type: 'input',
-//     name: 'userName',
-//     message: 'What is your project title?'
-//   },
-//   {
-//     type: 'input',
-//     name: 'userName',
-//     message: 'What is your project title?'
-//   },
-//   {
-//     type: 'list',
-//     name: 'License',
-//     message: 'What is your License?'
-//     choices: ['MIT','']
-//   },
 
 ];
 

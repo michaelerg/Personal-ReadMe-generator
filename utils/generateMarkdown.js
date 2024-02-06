@@ -5,8 +5,8 @@
 //formats a string and write its to a file
 function generateMarkdown(data) {
   return `# ${data.title}
-
-##dfg badge
+ ## Badge
+ ![Github License](https://img.shields.io/badge/License/${data.license}-blue)
 
 ## description 
 ${data.description}
